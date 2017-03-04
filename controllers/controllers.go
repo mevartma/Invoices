@@ -18,9 +18,9 @@ func department(resp http.ResponseWriter, req *http.Request) {
 	var err error
 	switch req.Method {
 	case "GET":
-		//Get one or morw deps
+		//Get one or more deps
 	case "POST":
-		//create neq deps
+		//create new deps
 	case "UPDATE":
 		//update dep
 	case "DELETE":
